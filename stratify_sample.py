@@ -42,7 +42,7 @@ def stratify():
         print("No Valid AudioMoth Devices - Stratified Sampling Failed")
         return False
     stratified_data.to_csv('stratified_audiomoth_data.csv', index=False)  
-    print(stratified_data['StartDateTime'])
+    
     return True
 
 #for testing purposes
